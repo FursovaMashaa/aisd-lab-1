@@ -1,8 +1,5 @@
 #include "matrix.cpp"
+#include <gtest/gtest.h>
+#include <iostream>
+#include <complex>
 
-int main() {
-    Matrix matrix(3, 4, 5);
-    matrix.print();
-
-    return 0;
-}
